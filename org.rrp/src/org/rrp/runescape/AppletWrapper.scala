@@ -5,11 +5,9 @@ import java.applet.AppletContext
 import java.applet.AppletStub
 import java.net.URL
 import java.net.URLClassLoader
-
 import scala.collection.mutable.Map
-
-import org.eclipse.swt.awt.SWT_AWT
 import org.eclipse.swt.widgets.Composite
+import org.eclipse.swt.awt.SWT_AWT
 
 class AppletWrapper(gameurl: String) {
   
@@ -50,8 +48,7 @@ class AppletWrapper(gameurl: String) {
         applet.init()
         applet.start()
         
-        val frame = SWT_AWT.new_Frame(parent)
-        frame.add(applet)
+        SWT_AWT.new_Frame(parent).add(applet)
         
       case _ => throw new ClassCastException
     }

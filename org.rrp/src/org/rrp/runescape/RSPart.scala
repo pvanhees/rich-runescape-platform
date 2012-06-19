@@ -1,8 +1,11 @@
 package org.rrp.runescape
 
-import javax.inject.Inject
 import org.eclipse.e4.ui.di.Focus
+import org.eclipse.swt.SWT
 import org.eclipse.swt.widgets.Composite
+import org.eclipse.swt.widgets.Label
+
+import javax.inject.Inject
 
 class RSPart {
   
@@ -10,8 +13,7 @@ class RSPart {
   
   @Inject
   def initUI(parent: Composite) = {
-    println(parent)
-	wrapper.show(parent)
+	wrapper.show(new Composite(parent, SWT.EMBEDDED))
   }
   
   @Focus
