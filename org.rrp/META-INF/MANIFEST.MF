@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RRP
+Bundle-SymbolicName: org.rrp;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.scala-ide.scala.library,
+ org.eclipse.e4.ui.di,
+ javax.inject,
+ org.jsoup;bundle-version="1.6.3",
+ org.eclipse.swt;bundle-version="3.100.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

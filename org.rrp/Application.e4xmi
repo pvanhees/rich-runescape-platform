@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_2dNfwLo_EeGeFLeW_WbtOw" elementId="org.rrp.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_40PBgLo_EeGeFLeW_WbtOw" elementId="org.rrp.trimmedwindow">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_6gpgALo_EeGeFLeW_WbtOw" elementId="org.rrp.perspectivestack">
+      <children xsi:type="advanced:Perspective" xmi:id="_7vJTcLo_EeGeFLeW_WbtOw" elementId="org.rrp.perspective" label="General">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9DJ5ALo_EeGeFLeW_WbtOw" elementId="org.rrp.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="__MQ6kLo_EeGeFLeW_WbtOw" elementId="org.rrp.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_ASaqULpAEeGeFLeW_WbtOw" elementId="org.rrp.runescape.part" contributionURI="bundleclass://org.rrp/org.rrp.runescape.RSPart" label="Runescape"/>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+</application:Application>
