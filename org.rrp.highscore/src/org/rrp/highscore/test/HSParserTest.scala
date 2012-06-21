@@ -10,7 +10,7 @@ import org.scalatest.Tag
 class HSParserTest extends FlatSpec {
   
   val skills = List(
-    "Overall"
+	"Overall"
 	,"Attack"
 	,"Defence"
 	,"Strength"
