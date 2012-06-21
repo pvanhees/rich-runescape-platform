@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_jdWRQLukEeGQeaoJRZ4wOg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rDrJcLukEeGQeaoJRZ4wOg" featurename="children" parentElementId="org.rrp.general.right" positionInList="first">
+    <elements xsi:type="basic:Part" xmi:id="_ccekoLumEeGQeaoJRZ4wOg" elementId="org.rrp.highscore.hspart" contributionURI="bundleclass://org.rrp.highscore/org.rrp.highscore.HSPart" label="Highscore"/>
+  </fragments>
+</fragment:ModelFragments>
