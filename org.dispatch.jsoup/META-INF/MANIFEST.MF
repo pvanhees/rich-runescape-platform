@@ -12,3 +12,11 @@ Require-Bundle: org.eclipse.ui,
  org.jsoup;bundle-version="1.6.3"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: dispatch,
+ dispatch.jsoup,
+ dispatch.thread,
+ org.dispatch.jsoup
+Bundle-ClassPath: .,
+ lib/dispatch-core_2.9.1-0.8.7.jar,
+ lib/dispatch-http_2.9.1-0.8.7.jar,
+ lib/dispatch-jsoup_2.9.1-0.8.7.jar
